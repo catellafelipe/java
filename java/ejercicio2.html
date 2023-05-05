@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+</head>
+<script>
+const numeros = [2, 5, 8, 1, 9, 4];
+let mayor = numeros[0]; 
+
+for (let i = 1; i < numeros.length; i++) {
+  if (numeros[i] > mayor) {
+    mayor = numeros[i]; 
+  }
+}
+
+console.log(`El número mayor es ${mayor}`);
+</script>

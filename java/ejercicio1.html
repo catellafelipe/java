@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+</head>
+<script>
+    let viaje = prompt("Ingrese la distancia en metros:");
+
+if (viaje <= 1000) {
+ document.write("Se recomienda caminar.");
+} else if (viaje > 1000 && viaje <= 10000) {
+  document.write("Se recomienda usar una bicicleta.");
+} else if (viaje > 10000 && viaje <= 30000) {
+    document.write("Se recomienda usar un colectivo.");
+} else if (viaje> 30000 && viaje <= 100000) {
+document.write("Se recomienda usar un auto.");
+} else {
+ document.write("Se recomienda usar un avión.");
+}
+
+</script>
