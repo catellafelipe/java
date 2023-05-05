@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="boton.css">
+</head>
+<body>
+    <h3>boton 1</h3>
+    <p>
+        <button class="boton1"onclick="cambiarColor('blue')">cambio de color</button>
+    </p>
+    <h3>boton 2</h3>
+    <p>
+        <button class="boton2"onclick="cambiarColor('red')">cambio de color</button>
+    </p>
+    <h3>boton 3</h3>
+    <p>
+        <button class="boton3"onclick="cambiarColor('green')">cambio de color</button>
+    </p>
+    <script>
+       function cambiarColor (color){
+        document.body.style.backgroundColor = color ;
+       }
+
+
+    </script>
+</body>
+</html>
