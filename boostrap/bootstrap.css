@@ -1,0 +1,23 @@
+.custom-accordion .accordion-header {
+    background-color: orange;
+    color: #333;
+    border: none;
+    border-radius: 0;
+    padding: 1rem;
+    font-weight: bold;
+  }
+  
+  .custom-accordion .accordion-header:hover {
+    background-color:blue;
+  }
+  
+  .custom-accordion .accordion-body {
+    background-color: green;
+    border: none;
+    border-top: 1px solid #ccc;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+    
