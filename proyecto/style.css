@@ -1,0 +1,252 @@
+/* Reset styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffcc00;
+  }
+  
+  .cart {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart i {
+    margin-right: 5px;
+  }
+  
+  .cart:hover {
+    color: #ffcc00;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: #fff;
+    min-height: 400px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social {
+    margin-bottom: 10px;
+  }
+  
+  .social a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .social i {
+    transition: color 0.3s;
+  }
+  
+  .social i:hover {
+    color: #ffcc00;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffcc00;
+  }
+  
+  .cart {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart i {
+    margin-right: 5px;
+  }
+  
+  .cart:hover {
+    color: #ffcc00;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .product p {
+    margin: 5px 0;
+  }
+  
+  .product button {
+    padding: 8px 16px;
+    background-color: #ffcc00;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #e6b800;
+  }
+  
+  form {
+    margin-top: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #ffcc00;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e6b800;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .social a:hover {
+    color: #ffcc00;
+  }
+  
